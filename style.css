@@ -576,4 +576,8 @@ footer{
         color: #ffffff;
         background-color: #7B68EE;
     }
+        .item2 > img:hover{
+        max-width: 550px;
+        border-radius: 20px;
+    }
 }
