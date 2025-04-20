@@ -260,11 +260,30 @@ footer{
 }
 .item2 > img:hover{
     max-width: 550px;
-    width: 550px;
     border-radius: 20px;
 }
-
-
+.join-btn{
+    display: flex;
+    margin: auto;
+    width: 200px;
+    height: auto;
+    padding: 20px;
+    justify-content: center;
+    justify-self: center;
+    width: 200px;
+    border-radius: 8px;
+    background-color: #8A2BE2;
+    margin: 15px 0 15px 0;
+    transition: all 1000ms ease;
+}
+.join-btn a{
+    color: #ffffff;
+    text-align: center;
+}
+.join-btn:hover{
+    width: 250px;
+    background-color: #9266ff;
+}
 .class-container{
     display: grid;
     grid-template-rows: repeat(6, auto);
@@ -576,8 +595,26 @@ footer{
         color: #ffffff;
         background-color: #7B68EE;
     }
-        .item2 > img:hover{
-        max-width: 550px;
+    .item2{
+        grid-area: content1;
+        justify-self: end;
+    }
+    .item2 > img{
+        width: 100%;
+        max-width: 210px;
+        transition: all 1000ms ease;
+    }
+    .item3{
+        grid-area: content2;
+        justify-self: start;
+    }
+    .item3 > img{
+        width: 100%;
+        max-width: 220px;
+        margin-top: 5%;
+    }
+    .item2 > img:hover{
+        max-width: 250px;
         border-radius: 20px;
     }
 }
